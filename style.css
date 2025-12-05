@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: aliceblue;
+    background-color:rgb(130,106,251);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@ body{
        background: #fff;
        border-radius: 8px;
        box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
-       padding: 30px;
+       padding: 25px;
 
     }
 
@@ -35,7 +35,7 @@ body{
     color: #150da7;
     letter-spacing: 0.5px;
     font-size: 1.5rem;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     }
 
 .container .form{
@@ -53,11 +53,11 @@ body{
     height: 50px;
     width: 100%;
     outline: none;
-    margin-top: 10px;
+    margin-top: 8px;
     font-size: 1rem;
     color: #707070;
     border: 1px solid #ddd;
-    border-radius: 10px;
+    border-radius: 6px;
     padding: 0 15px;
     transition: 0.3s ease;
 }
@@ -88,7 +88,7 @@ body{
 
 .form .gender{
     column-gap: 5px;
-    
+       
 }
 .gender input{
     accent-color:#3832b8 ;
@@ -119,9 +119,9 @@ body{
     background-color: #3832b8;
     color: #fff;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 400;
     border: none;
-    border-radius: 8px;
+    border-radius: 6px;
     cursor: pointer;
     transition:all 0.3s ease ;
     }
@@ -134,6 +134,9 @@ body{
     .form .column{
         flex-wrap: wrap;
 
+    }
+    .form .gender-option, .gender{
+        row-gap: 15px;
     }
   
     }
